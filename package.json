@@ -1,0 +1,17 @@
+{
+    "name": "autowait",
+    "version": "1.0.0",
+    "description": "demonstrate autoWait bug",
+    "main": "index.js",
+    "scripts": {
+        "start:node": "node ./node/index.js",
+        "start:ui5": "ui5 serve"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@ui5/cli": "^2.14.17",
+        "cors": "^2.8.5",
+        "express": "^4.18.2"
+    }
+}
